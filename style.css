@@ -1,0 +1,63 @@
+img {
+    background-image: linear-gradient(45deg , #12c2e9, #c471ed, #f64f59);
+    border-radius: 1em 2em;
+    animation: text 3s ease infinite ;
+    background-size: 200%;
+}
+body {
+    background: linear-gradient( 45deg , #ee0979, #ff6a00);
+    background-size: 200%;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+h1 {
+    color: darkturquoise;
+    -webkit-text-stroke: 2px black;
+    font-family: Impact;
+    background-image: linear-gradient(45deg , #12c2e9, #c471ed, #f64f59);
+    border-radius: 1em 2em;
+    animation: text 3s ease infinite ;
+    background-size: 200%;
+}
+button {
+    box-shadow: 3px 3px 6px black;
+  margin: 27px auto 0;
+  position: relative;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  color: rgb(230, 228, 228);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  background: linear-gradient(to left, 
+#de6161, #2657eb);
+  transform: 5s;
+  border: none;
+  border-radius: 10px;
+}
+@keyframes text {
+    0% {
+        background-position: 0;
+    }
+    50% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0;
+    }
+}
+h6 {
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
